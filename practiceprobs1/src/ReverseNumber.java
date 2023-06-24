@@ -7,12 +7,19 @@ public class ReverseNumber {
         System.out.println("Enter a value: ");
         int num = sc.nextInt();
 
-        int rev = 0;
-        while (num != 0){
-             rev = rev * 10 + num%10;
-             num = num/10;
+//        int rev = 0;
+//        while (num != 0){
+//             rev = rev * 10 + num%10;
+//             num = num/10;
+//
+//        }
+//        System.out.println("reversed number is "+ rev);
 
-        }
+        //Using StringBuffer class
+        StringBuffer sb = new StringBuffer(String.valueOf(num));
+        StringBuffer rev = sb.reverse();
         System.out.println("reversed number is "+ rev);
+
     }
+
 }
