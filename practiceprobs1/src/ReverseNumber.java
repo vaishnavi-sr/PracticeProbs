@@ -20,8 +20,9 @@ public class ReverseNumber {
         StringBuffer rev = sb.reverse();*/
 
         //Using StringBuilder class
-        StringBuilder sbl = new StringBuilder();
+        StringBuilder sbl = new StringBuilder(num);
         sbl.append(num);
+
         StringBuilder rev = sbl.reverse();
         System.out.println("reversed number is "+ rev);
 
