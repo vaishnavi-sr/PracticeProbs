@@ -1,4 +1,4 @@
-package TestSolutions;
+package practiceTest;
 
 public class StringReverse {
 
