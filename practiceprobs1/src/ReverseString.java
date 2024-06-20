@@ -6,12 +6,11 @@ public class ReverseString {
 
         String rev = "";
 
-        int len = str.length() ;
+        for(int i = str.length()-1;i>=0;i--){
+            rev += str.charAt(i);
+        }
+        System.out.println(rev);
 
-      for(int i = len-1;i >= 0;i--){
-          rev += str.charAt(i);
-      }
-        System.out.println("Reverse string is :" + rev);
 
       //2. Using character array
         String word = "Song";
@@ -33,4 +32,7 @@ public class ReverseString {
 
 
     }
+
 }
+
+
