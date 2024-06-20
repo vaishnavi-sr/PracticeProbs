@@ -15,7 +15,7 @@ public class NumberReverse {
            sb.append(num);
 
            StringBuilder revNum = sb.reverse();
-            System.out.println("The reversed number is "+45 revNum);
+            System.out.println("The reversed number is "+ revNum);
             break;
         }
 
