@@ -11,12 +11,12 @@ public class NumberReverse {
 
 
         while(num != 0){
-           StringBuilder sb = new StringBuilder();
-           sb.append(num);
+               StringBuilder sb = new StringBuilder();
+               sb.append(num);
 
-           StringBuilder revNum = sb.reverse();
-            System.out.println("The reversed number is "+ revNum);
-            break;
+               StringBuilder revNum = sb.reverse();
+                System.out.println("The reversed number is "+  revNum);
+               break;
         }
 
 
